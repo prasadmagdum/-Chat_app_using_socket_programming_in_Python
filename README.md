@@ -13,15 +13,6 @@ Disconnect feature: Clients can disconnect from the chat using the !disconnect c
 Prerequisites
 Before running the application, ensure you have the following installed:
 
-Python 3.x
-Basic knowledge of Python, socket programming, and tkinter
-Installation
-Clone the repository to your local machine:
-
-bash
-Copy code
-git clone https://github.com/yourusername/chat-app-socket-python.git
-Navigate to the project directory:
 
 bash
 Copy code
