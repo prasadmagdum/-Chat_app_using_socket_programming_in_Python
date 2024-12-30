@@ -1,4 +1,4 @@
-# -Chat_app_using_socket_programming_in_Python
+s# -Chat_app_using_socket_programming_in_Python
 A chat app using socket programming in Python enables real-time communication between clients over a network by establishing a connection through sockets.
 Python Chat Application using Socket Programming
 Overview
@@ -14,8 +14,6 @@ Prerequisites
 Before running the application, ensure you have the following installed:
 
 
-bash
-Copy code
 cd chat-app-socket-python
 How to Run
 Server
@@ -53,8 +51,7 @@ README.md: This file, providing an overview and instructions for the project.
 Example Usage
 Server: Start the server in one terminal:
 
-bash
-Copy code
+
 python server.py
 The server will start listening for clients.
 
