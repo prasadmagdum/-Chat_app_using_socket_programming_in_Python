@@ -1,35 +1,33 @@
-🚀 Chat App Using Socket Programming in Python
+Chat App Using Socket Programming in Python
 
-🌟 Overview
+Overview
 
 Welcome to the Python Chat Application! This project enables real-time communication between multiple clients using socket programming. With a user-friendly GUI built with Tkinter, you can seamlessly chat with others over a network.
 
-🔥 Features
+Features
 
-✅ Multi-client support – Connect multiple users simultaneously.
-✅ Real-time messaging – Instant chat with other connected clients.
-✅ User-friendly GUI – A simple yet intuitive Tkinter interface.
-✅ Unique username assignment – Join the chat with a personalized username.
-✅ Disconnect feature – Type !disconnect to exit the chat gracefully.
+ Multi-client support – Connect multiple users simultaneously.
+ Real-time messaging – Instant chat with other connected clients.
+ User-friendly GUI – A simple yet intuitive Tkinter interface.
+ Unique username assignment – Join the chat with a personalized username.
+ Disconnect feature – Type !disconnect to exit the chat gracefully.
 
-🛠️ Prerequisites
+Prerequisites
 
 Ensure you have the following installed before running the application:
+Python 3.x
 
-🐍 Python 3.x
+tkinter (Pre-installed with Python)
 
-🎨 tkinter (Pre-installed with Python)
-
-📥 Installation
+Installation
 
 Clone this repository and navigate to the project directory:
 
 git clone https://github.com/your-repo/chat-app-socket-python.git
 cd chat-app-socket-python
+ How to Run
 
-🚀 How to Run
-
-🖥️ Start the Server
+Start the Server
 
 Run the following command to start the chat server:
 
@@ -37,7 +35,7 @@ python server.py
 
 The server will listen for client connections on 127.0.0.1:8000.
 
-📱 Start a Client
+Start a Client
 
 Run the client application in a separate terminal:
 
@@ -45,9 +43,9 @@ python client.py
 
 Enter your username and click "Connect" to join the chat!
 
-🎯 How It Works
+How It Works
 
-📡 Server Side (server.py)
+Server Side (server.py)
 
 Initializes a socket object and binds it to a host and port.
 
@@ -55,7 +53,7 @@ Accepts incoming connections and assigns threads to each client.
 
 Receives and broadcasts messages to all connected clients.
 
-💬 Client Side (client.py)
+Client Side (client.py)
 
 Connects to the server using a socket.
 
@@ -65,31 +63,31 @@ Displays incoming messages in a scrollable chat window.
 
 Allows users to disconnect from the chat using !disconnect.
 
-📂 Project Files
+Project Files
 
-📌 server.py – Server-side code for handling connections & broadcasting messages.📌 client.py – Client-side code with a GUI for chat interaction.📌 README.md – Comprehensive guide and instructions for using the app.
+server.py – Server-side code for handling connections & broadcasting messages.client.py – Client-side code with a GUI for chat interaction.README.md – Comprehensive guide and instructions for using the app.
 
-📌 Example Usage
+Example Usage
 
-🔹 Start the Server
+Start the Server
 
 python server.py
 
 The server is now waiting for client connections.
 
-🔹 Start a Client
+Start a Client
 
 python client.py
 
 Enter a unique username and start chatting!
 
-🔹 Send Messages
+Send Messages
 
 Type a message and press Enter to send it to all connected users.
 
-🔹 Disconnect
+Disconnect
 
 Simply type !disconnect to leave the chat.
 
-🎉 Enjoy real-time chatting with Python and Tkinter! 🚀
+Enjoy real-time chatting with Python and Tkinter! 
 
