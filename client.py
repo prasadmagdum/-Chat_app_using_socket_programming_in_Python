@@ -28,7 +28,7 @@ def add_message(message):
 
 def connect():
 
-    # try except block
+    
     try:
 
         # Connect to the server
@@ -54,7 +54,7 @@ def send_message():
     if message != '':
         if message == '!disconnect':
             client.sendall(message.encode())
-            client.close()  # Close the socket
+            client.close()  
             root.quit()
         else:
             client.sendall(message.encode())
@@ -114,7 +114,7 @@ def listen_for_messages_from_server(client):
         else:
             messagebox.showerror("Error", "Message recevied from client is empty")
 
-# main function
+
 def main():
 
     root.mainloop()
