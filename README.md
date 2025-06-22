@@ -51,4 +51,6 @@ Type a message and press Enter to send it to all connected users.
 Disconnect
 Simply type !disconnect to leave the chat.
 
+![image](https://github.com/prasadmagdum/-Chat_app_using_socket_programming_in_Python/blob/a3094dbb9d11b565796c4c15388d012eb7905933/Screenshot%202025-06-22%20145500.png)
+
 
