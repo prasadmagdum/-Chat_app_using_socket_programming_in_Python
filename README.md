@@ -6,7 +6,7 @@ Multi-client support – Connect multiple users simultaneously.
 Real-time messaging – Instant chat with other connected clients.
 User-friendly GUI – A simple yet intuitive Tkinter interface.
 Unique username assignment – Join the chat with a personalized username.
-Disconnect feature – Type !disconnect to exit the chat gracefully.
+
 
 ![image](https://github.com/prasadmagdum/-Chat_app_using_socket_programming_in_Python/blob/a3094dbb9d11b565796c4c15388d012eb7905933/Screenshot%202025-06-22%20145500.png)
 
