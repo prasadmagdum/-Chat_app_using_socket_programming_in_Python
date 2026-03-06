@@ -1,4 +1,4 @@
-Chat App Using Socket Programming in Python
+#Chat App Using Socket Programming in Python
 Welcome to the Python Chat Application! This project enables real-time communication between multiple clients using socket programming. With a user-friendly GUI built with Tkinter, you can seamlessly chat with others over a network.
 
 Features:
